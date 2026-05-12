@@ -3,7 +3,7 @@ import cart_icon from "../assets/cart_icon.png";
 
 const TrendyPlantCard2 = () => {
   return (
-    <div className="relative mx-auto w-[90%] md:w-260 h-100 md:h-70 bg-white/5 backdrop-blur-md border border-white/20 rounded-[50px] md:rounded-[80px] px-6 md:px-12 py-8 flex flex-col md:flex-row items-center overflow-visible">
+    <div className="relative mx-auto w-[92%] md:w-[90%] lg:w-[95%] max-w-260 h-100 md:h-70 bg-white/5 backdrop-blur-md border border-white/20 rounded-[50px] md:rounded-[80px] px-6 md:px-12 py-8 flex flex-col md:flex-row items-center overflow-visible">
 
       <div className="text-white md:w-[50%] z-20 text-center md:text-left mt-28 md:mt-0">
         <h2 className="text-xl md:text-2xl font-semibold">

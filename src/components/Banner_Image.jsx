@@ -1,9 +1,15 @@
 import banner_image from "../assets/banner_image.jpg";
 
-const Banner_Image= () =>{
+const Banner_Image = () => {
   return (
-    <img className="relative w-full h-[220vh] md:h-[220vh] bg-cover bg-center" src={banner_image} alt="" />
-  )
-}
+    <div className="w-full h-[95vh] md:h-[140vh] lg:h-[230vh] overflow-hidden">
+      <img
+        src={banner_image}
+        alt="banner"
+        className="w-full lg:h-full object-cover md:object-fill object-center"
+      />
+    </div>
+  );
+};
 
 export default Banner_Image;

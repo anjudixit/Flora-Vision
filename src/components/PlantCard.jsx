@@ -2,7 +2,7 @@ import aglaonema_plant from "../assets/aglaonema_plant.png";
 
 const PlantCard = () => {
   return (
-    <div className=" absolute top-40 sm:top-45 md:top-28 left-1/2 md:left-auto -translate-x-0.5 md:translate-x-0 md:right-16 lg:right-24 z-10 w-[35%] sm:w-[35%] sm:-translate-x-0.5 md:w-72">
+    <div className="absolute top-40 sm:top-44 md:top-52 lg:top-28 right-2 sm:right-6 md:right-16 lg:right-24 z-10 w-[42%] sm:w-[38%] md:w-72">
 
       <div className="relative">
         <img src={aglaonema_plant} alt="Aglaonema Plant"className=" w-40 sm:w-44 md:w-56 h-44 sm:h-48 md:h-60 object-contain mx-auto relative z-20 drop-shadow-2xl"/>

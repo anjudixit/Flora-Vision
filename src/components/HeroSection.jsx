@@ -8,14 +8,14 @@ import TrendyPlantsHeading from "./TrendyPlantsHeading";
 
 const HeroSection = () => {
   return (
-    <section className="relative w-full min-h-[200vh] sm:min-h-[210vh] md:min-h-[180vh] lg:min-h-[200vh] bg-[#182015]">
+    <section className="relative w-full min-h-[200vh] max-[400px]:min-h-[180vh] min-[401px]:min-h-[175vh] sm:min-h-[170vh] md:min-h-[180vh] lg:min-h-[200vhbg-[#182015]">
 
     <Banner_Image />
     <MainHeading />
     <PlantCard />
     <ReviewCard />
 
-    <div className=" absolute top-[82vh] min-[375px]:top-[77vh] min-[400px]:top-[75vh] sm:top-[78vh] md:top-[80vh] lg:top-[100vh] left-1/2 -translate-x-1/2 z-10">
+    <div className=" absolute top-[80vh] min-[375px]:top-[77vh] min-[400px]:top-[75vh] sm:top-[78vh] md:top-[82vh] lg:top-[100vh] left-1/2 -translate-x-1/2 z-10">
       <TrendyPlantsHeading title="Our Trendy Plants" />
     </div>
 

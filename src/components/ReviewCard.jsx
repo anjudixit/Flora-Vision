@@ -4,7 +4,7 @@ import { FaStar, FaStarHalfAlt } from "react-icons/fa";
 const ReviewCard = () => {
   return (
     <div
-      className=" absolute top-90 sm:top-100 md:top-105 left-0 sm:left-2 md:left-16 lg:left-24 z-10 w-[38%] sm:w-[34%] md:w-65 p-2.5 md:p-4 rounded-[22px] md:rounded-[30px]
+      className=" absolute top-87 sm:top-100 md:top-105 left-0 sm:left-2 md:left-16 lg:left-24 z-10 w-[38%] sm:w-[34%] md:w-65 p-2.5 md:p-4 rounded-[22px] md:rounded-[30px]
       border border-white/20 bg-white/5 backdrop-blur-md">
   
       <div className="flex flex-col sm:flex-row items-start sm:items-center gap-2">

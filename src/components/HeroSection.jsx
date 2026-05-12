@@ -8,7 +8,7 @@ import TrendyPlantsHeading from "./TrendyPlantsHeading";
 
 const HeroSection = () => {
   return (
-    <section className="relative w-full min-h-[220vh] md:min-h-[180vh] lg:min-h-[200vh] bg-[#182015]">
+    <section className="relative w-full min-h-[190vh] md:min-h-[180vh] lg:min-h-[200vh] bg-[#182015]">
       <Banner_Image />
       <MainHeading />
       <PlantCard />

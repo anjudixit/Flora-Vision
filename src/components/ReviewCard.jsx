@@ -1,4 +1,5 @@
 import profile_img from "../assets/profile_img.png";
+import { FaStar, FaStarHalfAlt } from "react-icons/fa";
 
 const ReviewCard = () => {
   return (
@@ -10,8 +11,12 @@ const ReviewCard = () => {
         <img src={profile_img} alt="profile" className="w-8 h-8 md:w-10 md:h-10 rounded-full object-cover"/>
         <div>
           <h3 className="text-white text-[10px] sm:text-xs md:text-sm font-semibold leading-tight">Ronnie Hamill</h3>
-          <div className="text-yellow-300 text-[9px] md:text-xs">
-            ★★★★⯪
+          <div className="flex items-center text-yellow-300 text-[10px] sm:text-xs shrink-0 mt-1">
+            <FaStar />
+            <FaStar />
+            <FaStar />
+            <FaStar />
+            <FaStarHalfAlt />
           </div>
         </div>
       </div>

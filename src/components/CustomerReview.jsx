@@ -2,6 +2,7 @@ import customer1 from "../assets/customer1.png";
 import customer2 from "../assets/customer2.jpg";
 import customer3 from "../assets/customer3.png";
 import TrendyPlantsHeading from "./TrendyPlantsHeading";
+import { FaStar, FaStarHalfAlt } from "react-icons/fa";
 
 const reviews = [
   {
@@ -38,7 +39,13 @@ const CustomerReview = () => {
               <img src={review.image} alt={review.name} className="w-15 h-15 rounded-full object-cover border-2 border-white/20 drop-shadow-xl"/>
               <div>
                 <h3 className="text-lg font-semibold text-center mt-6 ml-6">{review.name}</h3>
-                <div className="flex justify-center gap-1  text-yellow-300 text-lg"> ★★★★⯪</div>
+                <div className="flex items-center text-yellow-300 text-[10px] sm:text-xs shrink-0 mt-1 ml-6">
+                  <FaStar />
+                  <FaStar />
+                  <FaStar />
+                  <FaStar />
+                  <FaStarHalfAlt />
+                </div>
               </div>
             </div>
 

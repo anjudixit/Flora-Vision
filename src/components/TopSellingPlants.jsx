@@ -56,7 +56,7 @@ const TopSellingPlants = () => {
   return (
     <section className="w-full px-6 md:px-16 py-20 bg-[#182015]">
       {/* Heading */}
-      <TrendyPlantsHeading title="Our Top Selling Plants" className="mb-16"/>
+      <TrendyPlantsHeading title="Our Top Selling Plants" className="mb-16 max-[400px]:mt-10"/>
 
       {/* Product Grid */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-9">

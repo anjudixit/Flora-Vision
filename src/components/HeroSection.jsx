@@ -15,7 +15,7 @@ const HeroSection = () => {
       <PlantCard />
       <ReviewCard />
 
-      <div className=" absolute top-[60vh] max-[640px]:top-[75vh] sm:top-[85vh] md:top-[82vh] lg:top-[100vh] left-1/2 -translate-x-1/2 z-10">
+      <div className=" absolute top-[60vh] max-[640px]:top-[77vh] sm:top-[85vh] md:top-[82vh] lg:top-[100vh] left-1/2 -translate-x-1/2 z-10">
         <TrendyPlantsHeading title="Our Trendy Plants" />
       </div>
 
